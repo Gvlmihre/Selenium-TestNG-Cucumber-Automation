@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/gulmi/IdeaProjects/Semtrio/SemtrioTestAutomation">
+
+        <classes>
+            <class name="com.semtrio.regression.TestRunnerTestNG"><methods>
+
+            <include name="selectAUser"/>
+                <include name="seeComments"/>
+                <include name="seePhotos"/>
+
+        </methods>
+        </class>
+        </classes>
+    </test>
+</suite>

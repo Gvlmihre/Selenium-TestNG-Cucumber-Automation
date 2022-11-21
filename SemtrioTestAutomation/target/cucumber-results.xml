@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="21.732">
+    <testcase classname="A user can view the posts and albums of a user" name="a user can select a user from the dropdown list" time="7.475">
+        <system-out><![CDATA[Given a user is on the homepage.............................................passed
+When the user selects a user from the users dropdown list...................passed
+Then the posts and the albums displays......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="A user can view the posts and albums of a user" name="a user can see the comments of a post" time="7.177">
+        <system-out><![CDATA[Given a user is on the dashboard page.......................................passed
+When the user clicks on a post..............................................passed
+Then the user can see the comments of a post................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="A user can view the posts and albums of a user" name="a user can see the photos of an album" time="6.261">
+        <system-out><![CDATA[Given A user is on the dashboard page.......................................passed
+When the user clicks on an album............................................passed
+Then the user can see the photos............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
